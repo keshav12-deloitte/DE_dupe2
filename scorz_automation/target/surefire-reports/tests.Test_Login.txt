@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tests.Test_Login
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.074 s <<< FAILURE! - in tests.Test_Login
+tests.Test_Login  Time elapsed: 0.073 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	File cannot be resolved to a type
+	File cannot be resolved to a type
+
+	at tests.Test_Login.startTest(Test_Login.java:69)
+
+tests.Test_Login  Time elapsed: 0.073 s  <<< ERROR!
+java.lang.NullPointerException
+	at tests.Test_Login.endTest(Test_Login.java:178)
+

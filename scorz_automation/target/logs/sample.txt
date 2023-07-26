@@ -1,0 +1,101 @@
+2020-06-30 10:30:59:481 [Appium] Welcome to Appium v1.17.1
+2020-06-30 10:30:59:483 [Appium] Non-default server args:
+2020-06-30 10:30:59:484 [Appium]   logFile: /home/hasher/eclipse-workspace/Scorz_Automation/automation/target/logs/sample.txt
+2020-06-30 10:30:59:484 [Appium]   loglevel: info
+2020-06-30 10:30:59:507 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-06-30 10:30:59:724 [HTTP] --> GET /wd/hub/status
+2020-06-30 10:30:59:726 [HTTP] {}
+2020-06-30 10:30:59:749 [HTTP] <-- GET /wd/hub/status 200 18 ms - 68
+2020-06-30 10:30:59:751 [HTTP] 
+2020-06-30 10:31:00:461 [HTTP] --> POST /wd/hub/session
+2020-06-30 10:31:00:461 [HTTP] {"desiredCapabilities":{"appActivity":"com.fandomconnect.scorz.MainActivity","appPackage":"com.buzzconnect.bsa","BROWSER_NAME":"Android","VERSION":"10","automationName":"UiAutomator2","platformName":"Android","deviceName":"Mi A2"},"capabilities":{"firstMatch":[{"BROWSER_NAME":"Android","VERSION":"10","appium:appActivity":"com.fandomconnect.scorz.MainActivity","appium:appPackage":"com.buzzconnect.bsa","appium:automationName":"UiAutomator2","appium:deviceName":"Mi A2","platformName":"android"}]}}
+2020-06-30 10:31:00:466 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-06-30 10:31:00:467 [BaseDriver]   BROWSER_NAME
+2020-06-30 10:31:00:467 [BaseDriver]   VERSION
+2020-06-30 10:31:00:817 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+2020-06-30 10:31:00:835 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-06-30 10:31:00:836 [BaseDriver]   BROWSER_NAME
+2020-06-30 10:31:00:836 [BaseDriver]   VERSION
+2020-06-30 10:31:00:837 [BaseDriver] Session created with session id: e1e044b2-f5bf-450c-8ff4-94536e207039
+2020-06-30 10:31:00:837 [UiAutomator2] Starting 'com.buzzconnect.bsa' directly on the device
+2020-06-30 10:31:00:846 [ADB] Found 1 'build-tools' folders under '/home/hasher/Android/Sdk' (newest first):
+2020-06-30 10:31:00:846 [ADB]     /home/hasher/Android/Sdk/build-tools/30.0.0
+2020-06-30 10:31:00:847 [ADB] Using 'adb' from '/home/hasher/Android/Sdk/platform-tools/adb'
+2020-06-30 10:31:00:848 [AndroidDriver] Retrieving device list
+2020-06-30 10:31:00:885 [AndroidDriver] Using device: 4e02b1a
+2020-06-30 10:31:00:886 [ADB] Using 'adb' from '/home/hasher/Android/Sdk/platform-tools/adb'
+2020-06-30 10:31:01:011 [ADB] Getting device platform version
+2020-06-30 10:31:01:088 [UiAutomator2] Relaxing hidden api policy
+2020-06-30 10:31:01:445 [AndroidDriver] No app sent in, not parsing package/activity
+2020-06-30 10:31:02:256 [UiAutomator2] Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/tmp/2020530-19614-12y0p4y.42wl' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2020-06-30 10:31:02:258 [UiAutomator2] Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' is not writeable. Will copy it into the temporary location at '/tmp/2020530-19614-12y0p4y.42wl' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2020-06-30 10:31:02:416 [ADB] Using 'apksigner.jar' from '/home/hasher/Android/Sdk/build-tools/30.0.0/lib/apksigner.jar'
+2020-06-30 10:31:02:527 [ADB] Cannot use apksigner tool for signature verification. Original error: Command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xmx1024M -Xss1m -jar /home/hasher/Android/Sdk/build-tools/30.0.0/lib/apksigner.jar verify --print-certs /tmp/2020530-19614-12y0p4y.42wl/appium-uiautomator2-server-v4.5.5.apk' exited with code 1
+2020-06-30 10:31:03:057 [ADB] Cannot use apksigner tool for signature verification. Original error: Command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xmx1024M -Xss1m -jar /home/hasher/Android/Sdk/build-tools/30.0.0/lib/apksigner.jar verify --print-certs /tmp/2020530-19614-12y0p4y.42wl/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-06-30 10:31:03:263 [ADB] Using 'zipalign' from '/home/hasher/Android/Sdk/build-tools/30.0.0/zipalign'
+2020-06-30 10:31:03:413 [ADB] Cannot use apksigner tool for signing. Defaulting to sign.jar. Original error: Error: A JNI error has occurred, please check your installation and try again
+2020-06-30 10:31:03:414 [ADB] Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-06-30 10:31:03:415 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-06-30 10:31:03:415 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+2020-06-30 10:31:03:416 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-06-30 10:31:03:416 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+2020-06-30 10:31:03:417 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+2020-06-30 10:31:03:417 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+2020-06-30 10:31:03:417 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+2020-06-30 10:31:03:418 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-06-30 10:31:03:418 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+2020-06-30 10:31:03:419 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+2020-06-30 10:31:03:419 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+2020-06-30 10:31:03:419 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+2020-06-30 10:31:03:420 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-06-30 10:31:03:420 [ADB] 
+2020-06-30 10:31:03:963 [UiAutomator2] Server packages are going to be (re)installed
+2020-06-30 10:31:03:963 [UiAutomator2] Full packages reinstall is going to be performed
+2020-06-30 10:31:05:331 [ADB] io.appium.uiautomator2.server was successfully uninstalled
+2020-06-30 10:31:05:357 [ADB] The application at '/tmp/2020530-19614-12y0p4y.42wl/appium-uiautomator2-server-v4.5.5.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2020-06-30 10:31:15:476 [ADB] The installation of 'appium-uiautomator2-server-v4.5.5.apk' took 10118ms
+2020-06-30 10:31:16:799 [ADB] io.appium.uiautomator2.server.test was successfully uninstalled
+2020-06-30 10:31:16:800 [ADB] The application at '/tmp/2020530-19614-12y0p4y.42wl/appium-uiautomator2-server-debug-androidTest.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2020-06-30 10:31:18:802 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 2001ms
+2020-06-30 10:31:19:575 [UiAutomator2] Starting UIAutomator2 server 4.5.5
+2020-06-30 10:31:19:575 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-06-30 10:31:19:576 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-06-30 10:31:20:592 [WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+2020-06-30 10:31:21:602 [WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+2020-06-30 10:31:22:611 [WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+2020-06-30 10:31:23:746 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-06-30 10:31:23:997 [AndroidDriver] Screen already unlocked, doing nothing
+2020-06-30 10:31:23:998 [UiAutomator2] Starting 'com.buzzconnect.bsa/com.fandomconnect.scorz.MainActivity and waiting for 'com.buzzconnect.bsa/com.fandomconnect.scorz.MainActivity'
+2020-06-30 10:31:25:927 [Appium] New AndroidUiautomator2Driver session created successfully, session e1e044b2-f5bf-450c-8ff4-94536e207039 added to master session list
+2020-06-30 10:31:25:934 [HTTP] <-- POST /wd/hub/session 200 25472 ms - 970
+2020-06-30 10:31:25:935 [HTTP] 
+2020-06-30 10:31:26:004 [HTTP] --> GET /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039
+2020-06-30 10:31:26:005 [HTTP] {}
+2020-06-30 10:31:26:019 [HTTP] <-- GET /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039 200 15 ms - 902
+2020-06-30 10:31:26:020 [HTTP] 
+2020-06-30 10:31:26:026 [HTTP] --> GET /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039
+2020-06-30 10:31:26:026 [HTTP] {}
+2020-06-30 10:31:26:036 [HTTP] <-- GET /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039 200 11 ms - 902
+2020-06-30 10:31:26:037 [HTTP] 
+2020-06-30 10:31:26:045 [HTTP] --> POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/timeouts
+2020-06-30 10:31:26:045 [HTTP] {"implicit":15000}
+2020-06-30 10:31:26:048 [HTTP] <-- POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/timeouts 200 3 ms - 14
+2020-06-30 10:31:26:049 [HTTP] 
+2020-06-30 10:31:26:057 [HTTP] --> POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/element
+2020-06-30 10:31:26:058 [HTTP] {"using":"xpath","value":"//android.widget.Button[@text='Next']"}
+2020-06-30 10:31:27:464 [HTTP] <-- POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/element 200 1405 ms - 137
+2020-06-30 10:31:27:465 [HTTP] 
+2020-06-30 10:31:27:486 [HTTP] --> POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/element/c2a1289a-2b84-45ae-ba03-8515c6ee7e79/click
+2020-06-30 10:31:27:486 [HTTP] {"id":"c2a1289a-2b84-45ae-ba03-8515c6ee7e79"}
+2020-06-30 10:31:27:592 [HTTP] <-- POST /wd/hub/session/e1e044b2-f5bf-450c-8ff4-94536e207039/element/c2a1289a-2b84-45ae-ba03-8515c6ee7e79/click 200 105 ms - 14
+2020-06-30 10:31:27:593 [HTTP] 
+2020-06-30 11:06:05:519 [HTTP] --> GET /wd/hub/status
+2020-06-30 11:06:05:519 [HTTP] {}
+2020-06-30 11:06:05:521 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2020-06-30 11:06:05:521 [HTTP] 
+2020-06-30 11:06:06:683 [HTTP] --> POST /wd/hub/session
+2020-06-30 11:06:06:684 [HTTP] {"desiredCapabilities":{"appActivity":"com.fandomconnect.scorz.MainActivity","appPackage":"com.buzzconnect.bsa","BROWSER_NAME":"Android","VERSION":"10","automationName":"UiAutomator2","platformName":"Android","deviceName":"Mi A2"},"capabilities":{"firstMatch":[{"BROWSER_NAME":"Android","VERSION":"10","appium:appActivity":"com.fandomconnect.scorz.MainActivity","appium:appPackage":"com.buzzconnect.bsa","appium:automationName":"UiAutomator2","appium:deviceName":"Mi A2","platformName":"android"}]}}
+2020-06-30 11:06:06:685 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-06-30 11:06:06:685 [BaseDriver]   BROWSER_NAME
+2020-06-30 11:06:06:685 [BaseDriver]   VERSION
+2020-06-30 11:06:06:686 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session

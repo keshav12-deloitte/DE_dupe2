@@ -1,0 +1,5 @@
+2020-07-01 06:06:33:541 [Appium] Welcome to Appium v1.17.1
+2020-07-01 06:06:33:542 [Appium] Non-default server args:
+2020-07-01 06:06:33:543 [Appium]   logFile: /home/hasher/eclipse-workspace/Scorz_Automation/automation/target/logs/Logs.txt
+2020-07-01 06:06:33:543 [Appium]   loglevel: info
+2020-07-01 06:06:33:562 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
